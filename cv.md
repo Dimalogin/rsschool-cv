@@ -38,3 +38,38 @@ After studying technology, I plan to create web applications that solve problems
 * Figma
 
 ---
+
+### Code example:
+
+**Subarray with the highest sum, from learm.javascript.ru** 
+
+Given: array of numbers,  example: `arr = [1, -2, 3, 4, -9, 6]`
+
+Find a contiguous subarray in an arr, with the maximum sum of elements.
+
+```
+function getMaxSum(arr) {
+
+    let maxSum = 0;
+
+    for (let i = 0; i < arr.length; i++) {
+
+        let sum = 0;
+
+        for (let j = i; j < arr.length; j++) {
+
+            sum = sum + arr[j];
+
+            maxSum = Math.max(maxSum, sum);
+        };
+
+    };
+
+};
+
+let arr = [1, -2, 3, 4, -9, 6];
+
+getMaxSum(arr); \\\ 7
+
+```
+---
