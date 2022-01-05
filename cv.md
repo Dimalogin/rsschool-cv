@@ -27,6 +27,7 @@ Over the years of college and subsequent work in the specialty, I realized that 
 I have been dealing with this issue for more than six months. I have experience in developing several non-commercial sites.
 
 After studying technology, I plan to create web applications that solve problems for people around the world.
+
 ---
 
 ### Skills and Proficiency:
@@ -78,7 +79,7 @@ getMaxSum(arr); \\\ 7
 
 * HTML and CSS on-site training https://developer.mozilla.org/ru/
 * Курсы IT-Academy - website development using HTML, CSS and JavaScript
-* JavaScript Manual on learnjavascript.ru 
+* JavaScript Manual on https://learn.javascript.ru/
 * RS Schools Course «JavaScript/Front-end. Stage 0» 
 
 ---
