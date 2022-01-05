@@ -73,3 +73,17 @@ getMaxSum(arr); \\\ 7
 
 ```
 ---
+
+### Courses:
+
+* HTML and CSS on-site training https://developer.mozilla.org/ru/
+* Курсы IT-Academy - website development using HTML, CSS and JavaScript
+* JavaScript Manual on learnjavascript.ru 
+* RS Schools Course «JavaScript/Front-end. Stage 0» 
+
+---
+
+### Languages:
+
+* Russian - Native
+* English - Beginner(A1)
