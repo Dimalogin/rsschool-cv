@@ -1,12 +1,12 @@
-let acc = document.getElementsByClassName("accordion");
-let i;
-let acc = document.getElementsByClassName("accordion");
-let i;
+var acc = document.getElementsByClassName("accordion");
+var i;
+var acc = document.getElementsByClassName("accordion");
+var i;
 
 for (i = 0; i < acc.length; i++) {
   acc[i].addEventListener("click", function() {
     this.classList.toggle("active");
-    let panel = this.nextElementSibling;
+    var panel = this.nextElementSibling;
     if (panel.style.maxHeight) {
       panel.style.maxHeight = null;
     } else {
