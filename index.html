@@ -5,12 +5,710 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/style-adaptiv.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="img/avatar-small.png" type="image/png">
+    <meta name="viewport" content="width=device-width">
+    <title>Dmitry Loginovskiy</title>
 </head>
 
 <body>
 
-    <h1>Cv project</h1>
+    <!--Header-->
+
+    <header class='mobile-container'>
+
+        <!--Wrapper-->
+        <article class='wrapper'>
+
+            <!--Mobile-nivigations-->
+            <section class='header-block-nav-mobile'>
+
+                <button class="accordion">
+                    <div class="container" onclick="myFunction(this)">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                        <div class="bar3"></div>
+                    </div>
+                </button>
+
+                <div class="panel">
+                    <ul>
+                        <li><a href="#aboute">Aboute me</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#strengths">Strengths</a></li>
+                        <li><a href="#code">Code</a></li>
+                        <li><a href="#project">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#education">Education</a></li>
+                        <li><a href="#language">Language</a></li>
+                    </ul>
+                </div>
+            </section>
+
+
+            <!--Logotype-->
+
+            <section class="header-block-logotype-mobile">
+                <div class=block-logotype-image>
+                    <a href="https://rs.school/js/" target="_blank">
+                        <img src="img/rs_school_js.svg" alt="logotype-rsschool">
+                    </a>
+                </div>
+            </section>
+
+
+            <!--Desktop-nivigations-->
+
+            <section class=' header-block-nav-desktop'>
+                <div class='desktop-navigation'>
+                    <ul>
+                        <li><a href="#about-desk">Aboute me</a></li>
+                        <li><a href="#skills-desk">Skills</a></li>
+                        <li><a href="#strengths-desk">Strengths</a></li>
+                        <li><a href="#code-desk">Code</a></li>
+                        <li><a href="#project-desk">Projects</a></li>
+                        <li><a href="#contact-desk">Contact</a></li>
+                        <li><a href="#education-desk">Education</a></li>
+
+                    </ul>
+                </div>
+
+            </section>
+
+
+            <!--Social-media-buttons-->
+
+            <section class='header-block-social-media-button'>
+
+                <div class="container-icons">
+                    <div>
+                        <a href="#">
+                            <img class='icon-1' src='img/discord.svg' alt="discord-icon">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://github.com/Dimalogin" target="_blank">
+                            <img class='icon-2' src='img/github.svg' alt="github-icon">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.linkedin.com/in/dima-loginovskiy-87205521a/" target="_blank">
+                            <img class='icon-3' src='img/linkedin.svg' alt="linkedin-icon">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://t.me/dmitriyLn" target="_blank">
+                            <img class='icon-4' src='img/telegram.svg' alt="telegram-icon">
+                        </a>
+                    </div>
+                </div>
+
+            </section>
+
+
+        </article>
+    </header>
+
+
+
+    <!--Main Content -->
+
+    <!-- Block main-content - 1-->
+
+    <article class='main-wrapper-container-1'>
+
+
+        <section class='block-image'>
+            <div>
+                <img src="img/avatar-big.png" alt='pesonal-foto' width='100%'>
+            </div>
+        </section>
+
+        <section class='block-name'>
+            <h1>Dmitriy Loginovkiy</h1>
+            <h2>Junior Frontend Developer</h2>
+        </section>
+
+        <section class='block-aboute-me'>
+            <a id='aboute'></a>
+            <h2>Briefly About Myself:</h2>
+
+            <p>Over the years of college and subsequent work in the specialty, I realized that I had lost interest in
+                the specialty and began to develop in the field of website development and web applications.</p>
+
+            <p>I have been dealing with this issue for more than six months. I have experience in developing several
+                non-commercial sites.</p>
+
+            <p>
+                After studying technology, I plan to create web applications that solve problems for people around the
+                world.
+            </p>
+        </section>
+
+        <section class='block-my-skills'>
+            <a id="skills"></a>
+            <h2>Skills and Proficiency:</h2>
+
+            <ul>
+                <li>Html5, CSS3</li>
+                <li>JavaScript Basics</li>
+                <li>Git, GitHub</li>
+                <li>Vs Code, Linux</li>
+                <li>Figma</li>
+            </ul>
+
+        </section>
+
+        <section class='block-my-key-strengths'>
+            <a id="strengths"></a>
+            <h2>Key Strengths:</h2>
+            <ul>
+                <li>Hardworking</li>
+                <li>Responsible</li>
+                <li>Sociable</li>
+                <li>Quick learner</li>
+                <li>Goal-oriented</li>
+                <li>Conscientious</li>
+            </ul>
+
+        </section>
+
+
+        <section class='block-code-example'>
+            <a id='code'></a>
+            <h2>Code example:</h2>
+            <div>
+                <p><strong>Subarray with the highest sum, from learm.javascript.ru</strong></p>
+                <p>Given: array of numbers, example: <span> arr = [1, -2, 3, 4, -9, 6]</span></p>
+                <p>Find a contiguous subarray in an arr, with the maximum sum of elements.</p>
+            </div>
+
+            <pre>
+<span class = 'code-purple'>function</span> <span class = 'code-yellow'>getMaxSum</span> <span class = 'code-white' >(</span><span class = 'code-yellow' >arr</span><span class = 'code-white'>)</span> <span class = 'code-white'>{</span>
+
+<span class = 'code-purple'>let</span><span class = 'code-yellow'> maxSum</span> <span class = 'code-pink'>=</span> <span class = 'code-red'>0</span><span class = 'code-white'>;</span>
+
+<span class = 'code-purple'>for</span><span class="code-white">(</span><span class ='code-purple'>let</span> <span class = 'code-yellow'>i</span> <span class = 'code-pink'>=</span> <span class = 'code-red'>0</span><span class='code-white'>;</span> <span class='code-blue'>i</span> <span class="code-pink">&#60;</span> <span class = 'code-blue'>arr</span><span class="code-white">.</span><span class="code-green">length</span><span class = 'code-white'>;</span> <span class="code-blue">i</span><span class='code-pink'>++</span><span class = 'code-white'>)</span> <span class = 'code-white'>{</span> 
+
+<span class = 'code-purple'>let</span> <span class="code-yellow">sum</span> <span class = 'code-pink'>=</span> <span class="code-red">0</span><span class = 'code-white'>;</span>
+
+<span class = 'code-purple'>for</span><span class="code-white">(</span><span class ='code-purple'>let</span> <span class = 'code-yellow'>j</span> <span class = 'code-pink'>=</span> <span class = 'code-blue'>i</span><span class='code-white'>;</span> <span class='code-blue'>j</span> <span class="code-pink">&#60;</span> <span class = 'code-blue'>arr</span><span class="code-white">.</span><span class="code-green">length</span><span class = 'code-white'>;</span> <span class = 'code-blue'>j</span><span class='code-pink'>++</span><span class = 'code-white'>)</span> <span class = 'code-white'>{</span> 
+
+  <span class="code-blue">sum</span> <span class="code-pink">=</span> <span class="code-blue">sum</span> <span class="code-pink">+</span> <span class="code-blue">arr</span><span class="code-white">[</span><span class = 'code-blue'>j</span><span class="code-white">]</span><span class="code-white">;</span>
+            
+  <span class = 'code-blue'>maxSum</span> <span class="code-pink">=</span> <span class = 'code-white'>Math</span><span class='code-white'>.</span><span class = 'code-green'>max</span><span class="code-white">(</span><span class = 'code-blue'>maxSum</span><span class = 'code-white'>,</span> <span class = code-blue>sum</span><span class = 'code-white'>)</span><span class="code-white">;</span>
+            
+<span class="code-white">}</span><span class = 'code-white'>;</span>
+            
+<span class="code-white">}</span><span class = 'code-white'>;</span>
+
+<span class="code-white">}</span><span class = 'code-white'>;</span>
+
+<span class="code-purple">let</span> <span class = 'code-yellow'>arr</span> <span class="code-pink">=</span> <span class="code-white">[</span><span class="code-pink">1</span><span class = 'code-white'>,</span> <span class="code-pink">-2</span><span class = 'code-white'>,</span> <span class = 'code-pink'>3</span><span class="code-white">,</span> <span class = 'code-pink'>4</span><span class = 'code-white'>,</span> <span class = 'code-pink'>-9</span><span class = 'code-white'>,</span> <span class = 'code-pink'>6</span><span class = 'code-white'>]</span><span class = 'code-white'>;</span>
+            
+<span class = 'code-white'>getMaxSum(arr);</span> <span style="color: green;">// 7</span>
+
+      </pre>
+        </section>
+
+        <section class='block-projects'>
+            <a id="project"></a>
+            <h2> My Projects:</h2>
+            <p>In progress ...</p>
+
+        </section>
+
+        <section class='block-contacts'>
+            <a id="contact"></a>
+            <h2>Contacts:</h2>
+            <ul>
+                <li>Phone:<a href='tel:+375293609302'>+375 (29) 360-93-02</a></li>
+                <li>Email:<a href="mailto:remen.2000@mail.ru">remen.2000@mail.ru</a></li>
+                <li>Address: <p>Minsk, Belarus</p>
+                </li>
+            </ul>
+
+
+        </section>
+
+        <section class='block-educations'>
+            <a id='education'></a>
+            <h2>Education and Courses:</h2>
+
+            <ul>
+                <li>2016 - 2020
+                    <ul>
+                        <li>College of Modern Technologies in Mechanical Engineering and Car Service</li>
+                    </ul>
+                </li>
+                <li>2020
+                    <ul>
+                        <li>Course IT-Academy - website development using HTML, CSS and JavaScript</li>
+                    </ul>
+                </li>
+                <li>2021
+                    <ul>
+                        <li>HTML and CSS on-site training <b>developer.mozilla.org</b></li>
+                        <li>JavaScript Manual on <b>learn.javascript.ru</b></li>
+                    </ul>
+                </li>
+                <li>2022
+                    <ul>
+                        <li>RS Schools Course «JavaScript/Front-end. Stage 0»</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <section class='block-language'>
+            <a id='language'></a>
+            <h2>languages</h2>
+
+            <ul>
+                <li>Russain - Native</li>
+                <li>English - Beginner(A1)</li>
+            </ul>
+
+        </section>
+
+
+    </article>
+
+
+    <!-- Block main-content - 2-->
+
+
+    <article class='main-wrapper-container-2'>
+
+        <!--Merging block - 1-->
+
+        <article class='merging-block-1'>
+
+            <section class='block-image'>
+                <div>
+                    <img src="img/avatar-big.png" alt='pesonal-foto' width='100%'>
+                </div>
+            </section>
+
+            <section class='block-name'>
+                <h1>Dmitriy Loginovkiy</h1>
+                <h2>Junior Frontend Developer</h2>
+            </section>
+
+
+        </article>
+
+
+        <!--Merging block - 2-->
+
+
+        <article class="merging-block-2">
+
+            <section class='block-aboute-me'>
+
+                <h2>Briefly About Myself:</h2>
+
+                <p>Over the years of college and subsequent work in the specialty, I realized that I had lost interest
+                    in
+                    the specialty and began to develop in the field of website development and web applications.</p>
+
+                <p>I have been dealing with this issue for more than six months. I have experience in developing several
+                    non-commercial sites.</p>
+
+                <p>
+                    After studying technology, I plan to create web applications that solve problems for people around
+                    the
+                    world.
+                </p>
+            </section>
+
+
+            <section class='block-my-skills'>
+                <h2>Skills and Proficiency:</h2>
+
+                <ul>
+                    <li>Html5, CSS3</li>
+                    <li>JavaScript Basics</li>
+                    <li>Git, GitHub</li>
+                    <li>Vs Code, Linux</li>
+                    <li>Figma</li>
+                </ul>
+
+            </section>
+
+
+            <section class='block-my-key-strengths'>
+
+
+                <h2>Key Strengths:</h2>
+                <ul>
+                    <li>Hardworking</li>
+                    <li>Responsible</li>
+                    <li>Sociable</li>
+                    <li>Quick learner</li>
+                    <li>Goal-oriented</li>
+                    <li>Conscientious</li>
+                </ul>
+
+            </section>
+
+
+            <section class='block-code-example'>
+                <h2>Code example:</h2>
+                <div>
+                    <p><strong>Subarray with the highest sum, from learm.javascript.ru</strong></p>
+                    <p>Given: array of numbers, example: <span> arr = [1, -2, 3, 4, -9, 6]</span></p>
+                    <p>Find a contiguous subarray in an arr, with the maximum sum of elements.</p>
+                </div>
+
+                <pre>
+<span class = 'code-purple'>function</span> <span class = 'code-yellow'>getMaxSum</span> <span class = 'code-white' >(</span><span class = 'code-yellow' >arr</span><span class = 'code-white'>)</span> <span class = 'code-white'>{</span>
+
+  <span class = 'code-purple'>let</span><span class = 'code-yellow'> maxSum</span> <span class = 'code-pink'>=</span> <span class = 'code-red'>0</span><span class = 'code-white'>;</span>
+  
+  <span class = 'code-purple'>for</span><span class="code-white">(</span><span class ='code-purple'>let</span> <span class = 'code-yellow'>i</span> <span class = 'code-pink'>=</span> <span class = 'code-red'>0</span><span class='code-white'>;</span> <span class='code-blue'>i</span> <span class="code-pink">&#60;</span> <span class = 'code-blue'>arr</span><span class="code-white">.</span><span class="code-green">length</span><span class = 'code-white'>;</span> <span class="code-blue">i</span><span class='code-pink'>++</span><span class = 'code-white'>)</span> <span class = 'code-white'>{</span> 
+  
+    <span class = 'code-purple'>let</span> <span class="code-yellow">sum</span> <span class = 'code-pink'>=</span> <span class="code-red">0</span><span class = 'code-white'>;</span>
+
+    <span class = 'code-purple'>for</span><span class="code-white">(</span><span class ='code-purple'>let</span> <span class = 'code-yellow'>j</span> <span class = 'code-pink'>=</span> <span class = 'code-blue'>i</span><span class='code-white'>;</span> <span class='code-blue'>j</span> <span class="code-pink">&#60;</span> <span class = 'code-blue'>arr</span><span class="code-white">.</span><span class="code-green">length</span><span class = 'code-white'>;</span> <span class = 'code-blue'>j</span><span class='code-pink'>++</span><span class = 'code-white'>)</span> <span class = 'code-white'>{</span> 
+  
+      <span class="code-blue">sum</span> <span class="code-pink">=</span> <span class="code-blue">sum</span> <span class="code-pink">+</span> <span class="code-blue">arr</span><span class="code-white">[</span><span class = 'code-blue'>j</span><span class="code-white">]</span><span class="code-white">;</span>
+                
+      <span class = 'code-blue'>maxSum</span> <span class="code-pink">=</span> <span class = 'code-white'>Math</span><span class='code-white'>.</span><span class = 'code-green'>max</span><span class="code-white">(</span><span class = 'code-blue'>maxSum</span><span class = 'code-white'>,</span> <span class = code-blue>sum</span><span class = 'code-white'>)</span><span class="code-white">;</span>
+                
+    <span class="code-white">}</span><span class = 'code-white'>;</span>
+                
+  <span class="code-white">}</span><span class = 'code-white'>;</span>
+
+<span class="code-white">}</span><span class = 'code-white'>;</span>
+ 
+<span class="code-purple">let</span> <span class = 'code-yellow'>arr</span> <span class="code-pink">=</span> <span class="code-white">[</span><span class="code-pink">1</span><span class = 'code-white'>,</span> <span class="code-pink">-2</span><span class = 'code-white'>,</span> <span class = 'code-pink'>3</span><span class="code-white">,</span> <span class = 'code-pink'>4</span><span class = 'code-white'>,</span> <span class = 'code-pink'>-9</span><span class = 'code-white'>,</span> <span class = 'code-pink'>6</span><span class = 'code-white'>]</span><span class = 'code-white'>;</span>
+                
+<span class = 'code-white'>getMaxSum(arr);</span> <span style="color: green;">// 7</span>
+
+          </pre>
+            </section>
+
+
+
+            <section class='block-projects'>
+
+                <h2> My Projects:</h2>
+                <p>In progress ...</p>
+
+            </section>
+
+            <section class='block-educations'>
+                <h2>Education and Courses:</h2>
+
+                <ul>
+                    <li>2016 - 2020
+                        <ul>
+                            <li>College of Modern Technologies in Mechanical Engineering and Car Service</li>
+                        </ul>
+                    </li>
+                    <li>2020
+                        <ul>
+                            <li>Course IT-Academy - website development using HTML, CSS and JavaScript</li>
+                        </ul>
+                    </li>
+                    <li>2021
+                        <ul>
+                            <li>HTML and CSS on-site training <b>developer.mozilla.org</b></li>
+                            <li>JavaScript Manual on <b>learn.javascript.ru</b></li>
+                        </ul>
+                    </li>
+                    <li>2022
+                        <ul>
+                            <li>RS Schools Course «JavaScript/Front-end. Stage 0»</li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+
+        </article>
+
+        <!--Merging block - 3-->
+
+        <article class='merging-block-3'>
+
+            <section class='block-contacts'>
+                <h2>Contacts:</h2>
+                <ul>
+                    <li>Phone:<a href='tel:+375293609302'>+375 (29) 360-93-02</a></li>
+                    <li>Email:<a href="mailto:remen.2000@mail.ru">remen.2000@mail.ru</a></li>
+                    <li>Address: <p>Minsk, Belarus</p>
+                    </li>
+                </ul>
+
+
+            </section>
+
+            <section class='block-language'>
+                <h2>languages</h2>
+
+                <ul>
+                    <li>Russain - Native</li>
+                    <li>English - Beginner(A1)</li>
+                </ul>
+
+            </section>
+
+        </article>
+
+    </article>
+
+
+
+    <!-- Block main-content - 3-->
+
+    <article class='main-wrapper-container-3'>
+
+        <!--Merging block - 1-->
+
+        <article class='merging-block-1'>
+
+            <section class='block-image'>
+                <div>
+                    <img src="img/avatar-big.png" alt='pesonal-foto' width='100%'>
+                </div>
+            </section>
+
+            <section class='block-contacts'>
+                <h2>Contacts:</h2>
+                <ul>
+                    <li>Phone:<a href='tel:+375293609302'>+375 (29) 360-93-02</a></li>
+                    <li>Email:<a href="mailto:remen.2000@mail.ru">remen.2000@mail.ru</a></li>
+                    <li>Address: <p>Minsk, Belarus</p>
+                    </li>
+                </ul>
+            </section>
+
+            <section class='block-language'>
+                <h2>languages</h2>
+
+                <ul>
+                    <li>Russain - Native</li>
+                    <li>English - Beginner(A1)</li>
+                </ul>
+
+            </section>
+
+        </article>
+
+
+        <!--Merging block - 2-->
+
+        <article class='merging-block-2'>
+
+            <section class='block-name'>
+                <h1>Dmitriy Loginovkiy</h1>
+                <h2>Junior Frontend Developer</h2>
+            </section>
+
+
+            <section class='block-aboute-me'>
+                <a id='about-desk'></a>
+                <h2>Briefly About Myself:</h2>
+
+                <p>Over the years of college and subsequent work in the specialty, I realized that I had lost interest
+                    in
+                    the specialty and began to develop in the field of website development and web applications.</p>
+
+                <p>I have been dealing with this issue for more than six months. I have experience in developing several
+                    non-commercial sites.</p>
+
+                <p>
+                    After studying technology, I plan to create web applications that solve problems for people around
+                    the
+                    world.
+                </p>
+            </section>
+
+
+            <section class='block-my-skills'>
+                <a id='skills-desk'></a>
+                <h2>Skills and Proficiency:</h2>
+
+                <ul>
+                    <li>Html5, CSS3</li>
+                    <li>JavaScript Basics</li>
+                    <li>Git, GitHub</li>
+                    <li>Vs Code, Linux</li>
+                    <li>Figma</li>
+                </ul>
+
+            </section>
+
+
+            <section class='block-my-key-strengths'>
+                <a id='strengths-desk'></a>
+                <h2>Key Strengths:</h2>
+                <ul>
+                    <li>Hardworking</li>
+                    <li>Responsible</li>
+                    <li>Sociable</li>
+                    <li>Quick learner</li>
+                    <li>Goal-oriented</li>
+                    <li>Conscientious</li>
+                </ul>
+
+            </section>
+
+
+            <section class='block-code-example'>
+                <a id='code-desk'></a>
+                <h2>Code example:</h2>
+                <div>
+                    <p><strong>Subarray with the highest sum, from learm.javascript.ru</strong></p>
+                    <p>Given: array of numbers, example: <span> arr = [1, -2, 3, 4, -9, 6]</span></p>
+                    <p>Find a contiguous subarray in an arr, with the maximum sum of elements.</p>
+                </div>
+
+                <pre>
+<span class = 'code-purple'>function</span> <span class = 'code-yellow'>getMaxSum</span> <span class = 'code-white' >(</span><span class = 'code-yellow' >arr</span><span class = 'code-white'>)</span> <span class = 'code-white'>{</span>
+
+  <span class = 'code-purple'>let</span><span class = 'code-yellow'> maxSum</span> <span class = 'code-pink'>=</span> <span class = 'code-red'>0</span><span class = 'code-white'>;</span>
+  
+  <span class = 'code-purple'>for</span><span class="code-white">(</span><span class ='code-purple'>let</span> <span class = 'code-yellow'>i</span> <span class = 'code-pink'>=</span> <span class = 'code-red'>0</span><span class='code-white'>;</span> <span class='code-blue'>i</span> <span class="code-pink">&#60;</span> <span class = 'code-blue'>arr</span><span class="code-white">.</span><span class="code-green">length</span><span class = 'code-white'>;</span> <span class="code-blue">i</span><span class='code-pink'>++</span><span class = 'code-white'>)</span> <span class = 'code-white'>{</span> 
+  
+    <span class = 'code-purple'>let</span> <span class="code-yellow">sum</span> <span class = 'code-pink'>=</span> <span class="code-red">0</span><span class = 'code-white'>;</span>
+
+    <span class = 'code-purple'>for</span><span class="code-white">(</span><span class ='code-purple'>let</span> <span class = 'code-yellow'>j</span> <span class = 'code-pink'>=</span> <span class = 'code-blue'>i</span><span class='code-white'>;</span> <span class='code-blue'>j</span> <span class="code-pink">&#60;</span> <span class = 'code-blue'>arr</span><span class="code-white">.</span><span class="code-green">length</span><span class = 'code-white'>;</span> <span class = 'code-blue'>j</span><span class='code-pink'>++</span><span class = 'code-white'>)</span> <span class = 'code-white'>{</span> 
+  
+      <span class="code-blue">sum</span> <span class="code-pink">=</span> <span class="code-blue">sum</span> <span class="code-pink">+</span> <span class="code-blue">arr</span><span class="code-white">[</span><span class = 'code-blue'>j</span><span class="code-white">]</span><span class="code-white">;</span>
+                
+      <span class = 'code-blue'>maxSum</span> <span class="code-pink">=</span> <span class = 'code-white'>Math</span><span class='code-white'>.</span><span class = 'code-green'>max</span><span class="code-white">(</span><span class = 'code-blue'>maxSum</span><span class = 'code-white'>,</span> <span class = code-blue>sum</span><span class = 'code-white'>)</span><span class="code-white">;</span>
+                
+    <span class="code-white">}</span><span class = 'code-white'>;</span>
+                
+  <span class="code-white">}</span><span class = 'code-white'>;</span>
+
+<span class="code-white">}</span><span class = 'code-white'>;</span>
+ 
+<span class="code-purple">let</span> <span class = 'code-yellow'>arr</span> <span class="code-pink">=</span> <span class="code-white">[</span><span class="code-pink">1</span><span class = 'code-white'>,</span> <span class="code-pink">-2</span><span class = 'code-white'>,</span> <span class = 'code-pink'>3</span><span class="code-white">,</span> <span class = 'code-pink'>4</span><span class = 'code-white'>,</span> <span class = 'code-pink'>-9</span><span class = 'code-white'>,</span> <span class = 'code-pink'>6</span><span class = 'code-white'>]</span><span class = 'code-white'>;</span>
+                
+<span class = 'code-white'>getMaxSum(arr);</span> <span style="color: green;">// 7</span>
+
+          </pre>
+            </section>
+
+
+            <section class='block-projects'>
+                <a id='project-desk'></a>
+                <h2> My Projects:</h2>
+                <p>In progress ...</p>
+
+            </section>
+
+
+            <section class='block-educations'>
+                <a id='education-desk'></a>
+                <h2>Education and Courses:</h2>
+
+                <ul>
+                    <li>2016 - 2020
+                        <ul>
+                            <li>College of Modern Technologies in Mechanical Engineering and Car Service</li>
+                        </ul>
+                    </li>
+                    <li>2020
+                        <ul>
+                            <li>Course IT-Academy - website development using HTML, CSS and JavaScript</li>
+                        </ul>
+                    </li>
+                    <li>2021
+                        <ul>
+                            <li>HTML and CSS on-site training <b>developer.mozilla.org</b></li>
+                            <li>JavaScript Manual on <b>learn.javascript.ru</b></li>
+                        </ul>
+                    </li>
+                    <li>2022
+                        <ul>
+                            <li>RS Schools Course «JavaScript/Front-end. Stage 0»</li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+
+        </article>
+
+    </article>
+
+
+
+
+
+    <!--Footer-->
+    <footer class='main-container'>
+
+        <article class='footer-wrapper'>
+
+
+            <article class='merging-block'>
+
+                <!--Social -->
+                <section class='block-social-buttons'>
+                    <div class="container-icons">
+                        <div>
+                            <a href='#'>
+                                <img class='icon-1' src='img/discord-w.svg' alt="discord-icon">
+                            </a>
+                        </div>
+                        <div>
+                            <a href="https://github.com/Dimalogin" target="_blank">
+                                <img class='icon-2' src='img/github-w.svg' alt="github-icon">
+                            </a>
+                        </div>
+                        <div>
+                            <a href="https://www.linkedin.com/in/dima-loginovskiy-87205521a/" target="_blank">
+                                <img class='icon-3' src='img/linkedin-w.svg' alt="linkedin-icon">
+                            </a>
+                        </div>
+                        <div>
+                            <a href="https://t.me/dmitriyLn" target="_blank">
+                                <img class='icon-4' src='img/telegram-w.svg' alt="telegram-icon">
+                            </a>
+                        </div>
+                    </div>
+
+                </section>
+
+
+                <!--Logotype-->
+                <section class='block-logotype'>
+
+                    <div class=block-logotype-image>
+                        <a href="https://rs.school/js/" target="_blank">
+                            <img src="img/rs_school_js-bl.svg" alt="logotype-rsschool">
+                        </a>
+                    </div>
+                </section>
+
+            </article>
+            <!--Author-->
+
+            <section class='block-author'>
+                <h3>© 2022 by Dmitry Loginovskiy</h3>
+            </section>
+
+
+
+        </article>
+
+    </footer>
+
+
+    <!--links on js script-->
+
+    <script src='js/dropDownMenu.js'></script>
+    <script src='js/accordion.js'></script>
+
+
 </body>
+
 
 </html>
